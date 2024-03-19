@@ -1,5 +1,5 @@
 ###############################################################################
-# TODO: 1. (2 pts)
+# Done: 1. (2 pts)
 #   
 #   This module is going to look very similar to other modules that you have
 #   done with lists and tuples, but this time we will use sets instead.
@@ -14,6 +14,9 @@
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
 
+colors = {"red", "orange", "yellow", "green"}
+print(colors)
+
 ###############################################################################
 # TODO: 2. (2 pts)
 #   
@@ -23,8 +26,15 @@
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
 
+# Help from classmate
+
+for x in colors:
+    if x == "red":
+        print(x)
+        break
+
 ###############################################################################
-# TODO: 3. (2 pts)
+# Done: 3. (2 pts)
 #   
 #   For this _TODO_, write a line of code that adds a color to your set. Once
 #   you have done this, print the set. Make sure you do NOT create a new set,
@@ -33,8 +43,11 @@
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
 
+colors.add("purple")
+print(colors)
+
 ###############################################################################
-# TODO: 4. (2 pts)
+# Done: 4. (2 pts)
 #   
 #   For this _TODO_, write a line of code that removes the same item that you
 #   added from the previous _todo_. Once you have done this, print the set.
@@ -43,8 +56,11 @@
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
 
+colors.remove("purple")
+print(colors)
+
 ###############################################################################
-# TODO: 5. (2 pts)
+# Done: 5. (2 pts)
 #
 #   For this _TODO_, write a line of code that adds a duplicate item to your
 #   set (you choose which item). Once you have done this, print the set. Make
@@ -54,3 +70,6 @@
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+
+colors.add("red")
+print(colors)
